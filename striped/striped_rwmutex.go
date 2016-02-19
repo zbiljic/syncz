@@ -43,7 +43,7 @@ func (s *StripedRWMutex) Get(key string) *sync.RWMutex {
 	hash := crc32.ChecksumIEEE([]byte(key))
 
 	// This will be skewed toward smaller stripe indexes if numstripes does not divide 256.
-	stripeIndex := hash % uint32(s.stripesCount)
+	stripeIndex := hash % s.stripesCount
 
 	return &s.array[stripeIndex]
 }
