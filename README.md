@@ -24,7 +24,7 @@ Striped contains implementation for Mutex, and RWMutex.
 
 The values used to retreive a lock cannot be nil.
 
-The number should be a factor of 256 for even stiped disribution.
+The number should be a factor of 256 for even striped distribution.
 
 
 ### Installation
