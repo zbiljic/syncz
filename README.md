@@ -2,7 +2,7 @@
 
 [![GoDoc](https://godoc.org/github.com/zbiljic/syncz?status.svg)](https://godoc.org/github.com/zbiljic/syncz)
 
-A library of concurrent data structures and synchronization mechanisms for Go.
+A library of concurrent data structures and synchronization mechanisms for Go (golang).
 
 It contains code intended to supplement the [sync][] package from the Go standard library.
 
