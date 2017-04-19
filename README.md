@@ -1,6 +1,7 @@
 # syncz
 
 [![GoDoc](https://godoc.org/github.com/zbiljic/syncz?status.svg)](https://godoc.org/github.com/zbiljic/syncz)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/zbiljic/syncz/master/LICENSE)
 
 A library of concurrent data structures and synchronization mechanisms for Go (golang).
 
@@ -60,4 +61,4 @@ See the [reference][] for more info.
 
 ---
 
-Copyright © 2016 Nemanja Zbiljić
+Copyright © 2017 Nemanja Zbiljić
